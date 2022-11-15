@@ -8,3 +8,4 @@ class PessoaForm(forms.ModelForm):
     class Meta:
         model = Pessoa
         fields = ['login', 'senha', 'data_nascimento']
+        
