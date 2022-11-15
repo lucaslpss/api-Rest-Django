@@ -1,2 +1,2 @@
 release:python manage.py migrate
-web:gunicorn ApiDjango.wsgi
+web:gunicorn projectAPI.wsgi
