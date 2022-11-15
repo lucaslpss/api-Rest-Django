@@ -26,6 +26,8 @@ class PessoaCreateView(CreateView):
     def form_valid(self, form):
         form.instance.usuario = self.request.user
         return super().form_valid(form)
+    
+
 
 class PessoaUpdateView(UpdateView):
     model = Pessoa
