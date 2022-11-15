@@ -15,3 +15,4 @@ class PessoaViewSet(viewsets.ModelViewSet):
         pessoas = super().get_queryset()
         pessoas = pessoas.filter(usuario=self.request.user)
         return pessoas
+    
